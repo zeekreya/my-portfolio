@@ -1,0 +1,29 @@
+.custom-navbar {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  padding: 12px 0;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4b00ff !important;
+  text-shadow: 2px 2px 5px rgba(0, 123, 255, 0.3);
+}
+
+.custom-navbar .nav-link {
+  color: #222;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 18px;
+  transition: 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #006eff;
+}
+
+.custom-navbar .nav-link.active {
+  color: #4b00ff !important;
+}
